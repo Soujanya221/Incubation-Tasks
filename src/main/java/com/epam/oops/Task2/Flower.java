@@ -1,4 +1,4 @@
-package com.epam.Task2;
+package com.epam.oops.Task2;
 
 public abstract class Flower {
     protected String name;

@@ -1,4 +1,4 @@
-package com.epam.Task2;
+package com.epam.oops.Task2;
 
 public class Lily extends Flower {
     public Lily() {

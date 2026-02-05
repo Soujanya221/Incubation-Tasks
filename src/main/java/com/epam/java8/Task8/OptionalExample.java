@@ -16,5 +16,6 @@ public class OptionalExample <S> {
     List<String> names = namesOptional.stream().filter(Optional::isPresent)
             .map(Optional::get)
             .collect(Collectors.toList());
+        System.out.println(names);
 
 }};

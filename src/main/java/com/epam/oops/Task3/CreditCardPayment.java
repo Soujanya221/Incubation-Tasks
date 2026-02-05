@@ -1,4 +1,4 @@
-package com.epam.Task3;
+package com.epam.oops.Task3;
 
 public class CreditCardPayment extends PaymentMethod {
 

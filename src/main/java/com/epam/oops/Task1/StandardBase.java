@@ -1,4 +1,4 @@
-package com.epam.Task1;
+package com.epam.oops.Task1;
 
 public class StandardBase extends PizzaBase {
     public StandardBase() {

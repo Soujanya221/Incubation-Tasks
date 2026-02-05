@@ -1,4 +1,4 @@
-package com.epam.Task1;
+package com.epam.oops.Task1;
 
 public abstract class PizzaBase {
     protected String name;

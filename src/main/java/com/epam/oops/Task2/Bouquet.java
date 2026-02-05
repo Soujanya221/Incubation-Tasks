@@ -1,4 +1,4 @@
-package com.epam.Task2;
+package com.epam.oops.Task2;
 
 import java.util.ArrayList;
 import java.util.List;

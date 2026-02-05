@@ -1,2 +1,19 @@
-package com.epam.testrunner;public class Runner {
+package com.epam.testrunner;
+
+import io.cucumber.testng.AbstractTestNGCucumberTests;
+import io.cucumber.testng.CucumberOptions;
+import org.testng.annotations.DataProvider;
+
+@CucumberOptions(
+            features = "src/test/resources/withdraw.feature",
+            glue = "com.epam.StepDefinitions"
+    )
+    public class Runner extends AbstractTestNGCucumberTests {
+    @Override
+    @DataProvider(parallel = true)
+    public Object[][] scenarios() {
+        return super.scenarios();
+    }
 }
+
+
