@@ -1,0 +1,184 @@
+Feb 05, 2026 3:20:12 PM com.epam.ui.Log error
+SEVERE: Error message is not displayed as expected. Actual message: Your username is invalid!
+×
+Feb 05, 2026 3:20:18 PM com.epam.ui.Log error
+SEVERE: Successful login message is not displayed as expected. Actual message: You logged into a secure area!
+×
+Feb 05, 2026 3:20:20 PM com.epam.ui.Log error
+SEVERE: Error message is not displayed as expected. Actual message: Your password is invalid!
+×
+Feb 05, 2026 3:24:39 PM com.epam.ui.Log error
+SEVERE: Successful login message is not displayed as expected. Actual message: You logged into a secure area!
+×
+Feb 05, 2026 3:24:41 PM com.epam.ui.Log error
+SEVERE: Error message is not displayed as expected. Actual message: Your password is invalid!
+×
+Feb 05, 2026 3:24:44 PM com.epam.ui.Log error
+SEVERE: Successful login message is not displayed as expected. Actual message: You logged into a secure area!
+×
+Feb 05, 2026 3:24:44 PM com.epam.ui.Log error
+SEVERE: Error message is not displayed as expected. Actual message: Your username is invalid!
+×
+Feb 05, 2026 3:28:21 PM com.epam.ui.Log error
+SEVERE: Successful login message is not displayed as expected. Actual message: You logged into a secure area!
+×
+Feb 05, 2026 3:28:21 PM com.epam.ui.Log error
+SEVERE: Successful login message is not displayed as expected. Actual message: You logged into a secure area!
+×
+Feb 05, 2026 3:28:22 PM com.epam.ui.Log error
+SEVERE: Error message is not displayed as expected. Actual message: Your username is invalid!
+×
+Feb 05, 2026 3:28:26 PM com.epam.ui.Log error
+SEVERE: Error message is not displayed as expected. Actual message: Your password is invalid!
+×
+Feb 05, 2026 3:31:11 PM com.epam.ui.Log error
+SEVERE: Error message is not displayed as expected. Actual message: Your password is invalid!
+×
+Feb 05, 2026 3:34:00 PM com.epam.ui.Log error
+SEVERE: Error message is not displayed as expected. Actual message: Your password is invalid!
+×
+Feb 05, 2026 3:34:51 PM com.epam.ui.Log error
+SEVERE: Error message is not displayed as expected. Actual message: Your password is invalid!
+×
+Feb 05, 2026 3:37:24 PM com.epam.ui.Log error
+SEVERE: Error message is not displayed as expected. Actual message: Your password is invalid!
+×
+Feb 05, 2026 3:38:13 PM com.epam.ui.Log error
+SEVERE: Error message is not displayed as expected. Actual message: Your username is invalid!
+×
+Feb 05, 2026 3:38:36 PM com.epam.ui.Log error
+SEVERE: Successful login message is not displayed as expected. Actual message: You logged into a secure area!
+×
+Feb 05, 2026 3:39:14 PM com.epam.ui.Log error
+SEVERE: Successful login message is not displayed as expected. Actual message: You logged into a secure area!
+×
+Feb 05, 2026 3:41:17 PM com.epam.ui.Log error
+SEVERE: Successful login message is not displayed as expected. Actual message: You logged into a secure area!
+×
+Feb 05, 2026 5:19:32 PM com.epam.ui.Log error
+SEVERE: Successful login message is not displayed as expected. Actual message: You logged into a secure area!
+×
+Feb 05, 2026 5:21:27 PM com.epam.ui.Log error
+SEVERE: Successful login message is not displayed as expected. Actual message: You logged into a secure area!
+×
+Feb 05, 2026 5:23:13 PM com.epam.ui.Log error
+SEVERE: Successful login message is not displayed as expected. Actual message: You logged into a secure area!
+×
+Feb 05, 2026 5:23:14 PM com.epam.ui.Log info
+INFO: Successfully redirected to the login page after logout.
+Feb 05, 2026 5:24:14 PM com.epam.ui.Log error
+SEVERE: Successful login message is not displayed as expected. Actual message: You logged into a secure area!
+×
+Feb 05, 2026 5:24:15 PM com.epam.ui.Log info
+INFO: Successfully redirected to the login page after logout.
+Feb 05, 2026 5:35:06 PM com.epam.ui.Log error
+SEVERE: Successful login message is not displayed as expected. Actual message: You logged into a secure area!
+×
+Feb 05, 2026 5:35:15 PM com.epam.ui.Log error
+SEVERE: Error message is not displayed as expected. Actual message: Your username is invalid!
+×
+Feb 05, 2026 5:35:37 PM com.epam.ui.Log error
+SEVERE: Error message is not displayed as expected. Actual message: Your password is invalid!
+×
+Feb 05, 2026 5:35:44 PM com.epam.ui.Log error
+SEVERE: Successful login message is not displayed as expected. Actual message: You logged into a secure area!
+×
+Feb 05, 2026 5:35:45 PM com.epam.ui.Log info
+INFO: Successfully redirected to the login page after logout.
+Feb 05, 2026 5:36:23 PM com.epam.ui.Log error
+SEVERE: Error message is not displayed as expected. Actual message: Your password is invalid!
+×
+Feb 05, 2026 5:36:23 PM com.epam.ui.Log error
+SEVERE: Error message is not displayed as expected. Actual message: Your username is invalid!
+×
+Feb 05, 2026 5:36:24 PM com.epam.ui.Log error
+SEVERE: Successful login message is not displayed as expected. Actual message: You logged into a secure area!
+×
+Feb 05, 2026 5:36:25 PM com.epam.ui.Log error
+SEVERE: Failed to redirect to the login page after logout. Current URL: https://the-internet.herokuapp.com/login
+Feb 05, 2026 5:36:25 PM com.epam.ui.Log error
+SEVERE: Successful login message is not displayed as expected. Actual message: You logged into a secure area!
+×
+Feb 05, 2026 5:37:32 PM com.epam.ui.Log error
+SEVERE: Error message is not displayed as expected. Actual message: Your username is invalid!
+×
+Feb 05, 2026 5:37:33 PM com.epam.ui.Log error
+SEVERE: Successful login message is not displayed as expected. Actual message: You logged into a secure area!
+×
+Feb 05, 2026 5:37:34 PM com.epam.ui.Log error
+SEVERE: Failed to redirect to the login page after logout. Current URL: https://the-internet.herokuapp.com/login
+Feb 05, 2026 5:37:34 PM com.epam.ui.Log error
+SEVERE: Successful login message is not displayed as expected. Actual message: You logged into a secure area!
+×
+Feb 05, 2026 5:37:36 PM com.epam.ui.Log error
+SEVERE: Error message is not displayed as expected. Actual message: Your password is invalid!
+×
+Feb 05, 2026 5:42:27 PM com.epam.ui.Log error
+SEVERE: Successful login message is not displayed as expected. Actual message: You logged into a secure area!
+×
+Feb 05, 2026 5:42:27 PM com.epam.ui.Log error
+SEVERE: Successful login message is not displayed as expected. Actual message: You logged into a secure area!
+×
+Feb 05, 2026 5:42:27 PM com.epam.ui.Log error
+SEVERE: Error message is not displayed as expected. Actual message: Your password is invalid!
+×
+Feb 05, 2026 5:42:36 PM com.epam.ui.Log error
+SEVERE: Error message is not displayed as expected. Actual message: Your username is invalid!
+×
+Feb 05, 2026 6:47:40 PM com.epam.ui.Log error
+SEVERE: Error message is not displayed as expected. Actual message: Your password is invalid!
+×
+Feb 05, 2026 6:47:42 PM com.epam.ui.Log error
+SEVERE: Successful login message is not displayed as expected. Actual message: You logged into a secure area!
+×
+Feb 05, 2026 6:47:44 PM com.epam.ui.Log error
+SEVERE: Error message is not displayed as expected. Actual message: Your username is invalid!
+×
+Feb 05, 2026 6:47:47 PM com.epam.ui.Log error
+SEVERE: Successful login message is not displayed as expected. Actual message: You logged into a secure area!
+×
+Feb 06, 2026 12:18:18 PM com.epam.ui.Log error
+SEVERE: Error message is not displayed as expected. Actual message: Your username is invalid!
+×
+Feb 06, 2026 12:18:20 PM com.epam.ui.Log error
+SEVERE: Successful login message is not displayed as expected. Actual message: You logged into a secure area!
+×
+Feb 06, 2026 12:18:24 PM com.epam.ui.Log error
+SEVERE: Successful login message is not displayed as expected. Actual message: You logged into a secure area!
+×
+Feb 06, 2026 12:18:27 PM com.epam.ui.Log error
+SEVERE: Error message is not displayed as expected. Actual message: Your password is invalid!
+×
+Feb 06, 2026 12:19:23 PM com.epam.ui.Log error
+SEVERE: Successful login message is not displayed as expected. Actual message: You logged into a secure area!
+×
+Feb 06, 2026 12:21:28 PM com.epam.ui.Log error
+SEVERE: Successful login message is not displayed as expected. Actual message: You logged into a secure area!
+×
+Feb 06, 2026 12:21:55 PM com.epam.ui.Log error
+SEVERE: Successful login message is not displayed as expected. Actual message: You logged into a secure area!
+×
+Feb 06, 2026 12:21:56 PM com.epam.ui.Log error
+SEVERE: Error message is not displayed as expected. Actual message: Your username is invalid!
+×
+Feb 06, 2026 12:21:57 PM com.epam.ui.Log error
+SEVERE: Error message is not displayed as expected. Actual message: Your password is invalid!
+×
+Feb 06, 2026 12:21:59 PM com.epam.ui.Log error
+SEVERE: Successful login message is not displayed as expected. Actual message: You logged into a secure area!
+×
+Feb 06, 2026 12:24:21 PM com.epam.ui.Log error
+SEVERE: Successful login message is not displayed as expected. Actual message: You logged into a secure area!
+×
+Feb 06, 2026 12:25:06 PM com.epam.ui.Log error
+SEVERE: Successful login message is not displayed as expected. Actual message: You logged into a secure area!
+×
+Feb 06, 2026 12:25:08 PM com.epam.ui.Log error
+SEVERE: Successful login message is not displayed as expected. Actual message: You logged into a secure area!
+×
+Feb 06, 2026 12:26:50 PM com.epam.ui.Log error
+SEVERE: Successful login message is not displayed as expected. Actual message: You logged into a secure area!
+×
+Feb 06, 2026 12:26:51 PM com.epam.ui.Log error
+SEVERE: Successful login message is not displayed as expected. Actual message: You logged into a secure area!
+×
