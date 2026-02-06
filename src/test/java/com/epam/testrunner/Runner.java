@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 import org.testng.annotations.DataProvider;
 
 @CucumberOptions(
-            features = "src/test/resources/task1Login.feature",
+            features = "src/test/resources/task2PopupAlert.feature",
             glue = "com.epam.StepDefinitions"
     )
     public class Runner extends AbstractTestNGCucumberTests {
