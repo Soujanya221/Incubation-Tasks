@@ -2,8 +2,7 @@
 <suite name="ParallelSuite" parallel="classes" thread-count="2">
     <test name="ParallelTests">
         <classes>
-            <class name="com.epam.testNG.parallelTestOne"/>
-            <class name="com.epam.testNG.parallelTestTwo"/>
+            <class name="com.epam.testNG.Task2Annotations"/>
         </classes>
     </test>
 </suite>
