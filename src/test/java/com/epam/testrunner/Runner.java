@@ -7,7 +7,9 @@ import org.testng.annotations.DataProvider;
 @CucumberOptions(
             features = "src/test/resources/task1Login.feature",
             glue = "com.epam.StepDefinitions",
-            plugin = {"pretty", "html:target/cucumber-reports.html"}
+            plugin = {"pretty", "html:target/cucumber-reports.html",
+                    "junit:target/cucumber-results.xml"
+            }
     )
     public class Runner extends AbstractTestNGCucumberTests {
     @Override
