@@ -3,6 +3,11 @@
     <test name="ParallelTests">
         <classes>
             <class name="com.epam.testNG.Task2Annotations"/>
+            <class name="com.epam.testNG.Task2Assertions"></class>
+            <class name="com.epam.testNG.parallelTestOne"></class>
+            <class name="com.epam.testNG.parallelTestTwo"></class>
+            <class name="com.epam.testNG.DependencyTest"></class>
+            <class name="com.epam.testNG.DataProviderTest"></class>
         </classes>
     </test>
 </suite>
