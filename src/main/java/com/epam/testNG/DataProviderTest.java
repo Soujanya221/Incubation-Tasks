@@ -8,10 +8,9 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.*;
-
 import java.time.Duration;
 
-public class DataProviderTest {
+public class DataProviderTest{
     private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
     private static ThreadLocal<WebDriverWait> wait = new ThreadLocal<>();
 

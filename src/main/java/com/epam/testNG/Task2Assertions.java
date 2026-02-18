@@ -1,21 +1,17 @@
 package com.epam.testNG;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class Task2Assertions {
-    WebDriver driver;
+public class Task2Assertions extends Base {
 
-    @BeforeMethod
+    @BeforeClass
     public void setUp(){
-        driver = new EdgeDriver();
-        driver.manage().window().maximize();
+        super.setUp();
         driver.get("https://the-internet.herokuapp.com/login");
     }
     @Test(priority = 1)
@@ -38,12 +34,9 @@ public class Task2Assertions {
         String expectedSuccesMessage = "You logged into a secure area!";
         Assert.assertTrue(actualSuccesmessage.contains(expectedSuccesMessage));
     }
-
-    @AfterMethod
+    @AfterClass
     public void tearDown(){
-        if (driver!= null){
-            driver.quit();
-        }
+        super.tearDown();
     }
 
 }

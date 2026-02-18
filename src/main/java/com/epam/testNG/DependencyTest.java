@@ -2,24 +2,19 @@ package com.epam.testNG;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.*;
 import java.time.Duration;
 
-public class DependencyTest {
-    WebDriver driver;
+public class DependencyTest extends Base {
     WebDriverWait wait;
     JavascriptExecutor js;
     @BeforeClass
     public void setUp() {
-        driver = new EdgeDriver();
+        super.setUp();
         wait= new WebDriverWait(driver, Duration.ofSeconds(2000));
-        driver.manage().window().maximize();
         js = (JavascriptExecutor) driver;
         driver.get("https://demoqa.com/webtables");
     }
@@ -59,9 +54,7 @@ public class DependencyTest {
         Assert.assertEquals(department.getText(), "Engineering");
     }
     @AfterClass
-    public void tearDown() {
-        if (driver != null) {
-            driver.quit();
-        }
+    public void tearDown(){
+        super.tearDown();
     }
 }

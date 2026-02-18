@@ -2,23 +2,18 @@ package com.epam.testNG;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 
-public class parallelTestTwo {
-        WebDriver driver;
+public class parallelTestTwo extends Base {
 
         @BeforeClass
         public void setUp() {
-            driver = new EdgeDriver();
-            driver.manage().window().maximize();
+            super.setUp();
             driver.get("https://demoqa.com/menu#");
         }
 
@@ -47,12 +42,9 @@ public class parallelTestTwo {
                     " | Thread ID: " + Thread.currentThread().getId() +
                     " | SubMenuItem2Test: " + subSubItem2.getText());
         }
-
-        @AfterClass
-        public void tearDown() {
-            if (driver != null) {
-                driver.quit();
-            }
-        }
+    @AfterClass
+    public void tearDown(){
+        super.tearDown();
+    }
 }
 
