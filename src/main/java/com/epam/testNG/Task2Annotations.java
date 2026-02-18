@@ -21,13 +21,11 @@ public class Task2Annotations {
     public void setUp(){
         EdgeOptions options = new EdgeOptions();
 
-        // Headless mode
-        options.addArguments("--headless=new");
-
-        // Recommended additional arguments
-        options.addArguments("--start-maximized");
+        options.addArguments("--headless");
         options.addArguments("--disable-gpu");
         options.addArguments("--window-size=1920,1080");
+        options.addArguments("--no-sandbox");
+        options.addArguments("--disable-dev-shm-usage");
         driver=new EdgeDriver(options);
         driver.manage().window().maximize();
         driver.get("https://google.com");
