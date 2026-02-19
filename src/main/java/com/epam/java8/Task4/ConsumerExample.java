@@ -8,11 +8,11 @@ public class ConsumerExample {
 
     public static void main(String[] args) {
 
-        Product product = new Product("Laptop", 75000, "Electronics", 'A');
+        ProductClass product = new ProductClass("Laptop", 75000, "Electronics", 'A');
 
         boolean printToFile = true; // change to false to print on console
 
-        Consumer<Product> productConsumer = p -> {
+        Consumer<ProductClass> productConsumer = p -> {
             if (printToFile) {
                 try (FileWriter writer = new FileWriter("products.txt", true)) {
                     writer.write(p.toString() + System.lineSeparator());

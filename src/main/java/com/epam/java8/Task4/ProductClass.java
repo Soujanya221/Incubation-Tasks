@@ -1,12 +1,12 @@
 package com.epam.java8.Task4;
 
-class Product {
+public class  ProductClass {
     String name;
     double price;
     String category;
     char grade;
 
-    Product(String name, double price, String category, char grade) {
+    public ProductClass(String name, double price, String category, char grade) {
         this.name = name;
         this.price = price;
         this.category = category;
