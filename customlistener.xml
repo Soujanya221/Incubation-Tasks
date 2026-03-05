@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DemoQATestSuite">
+
+    <listeners>
+        <listener class-name="com.epam.testNG.Task4.CustomListener"/>
+    </listeners>
+
+    <test name="BrokenLinksTest">
+        <classes>
+            <class name="com.epam.testNG.Task4.BrokenLinksTest"/>
+        </classes>
+    </test>
+
+</suite>
