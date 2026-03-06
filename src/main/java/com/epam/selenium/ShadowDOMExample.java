@@ -1,43 +1,38 @@
 package com.epam.selenium;
-import org.openqa.selenium.*;
-import org.openqa.selenium.chrome.ChromeDriver;
 
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 import java.time.Duration;
 
 public class ShadowDOMExample {
 
-    public static void main(String[] args) {
+    WebDriver driver;
 
-        WebDriver driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        driver.manage().window().maximize();
-
+    @Test(priority = 1)
+    public void testShadowDOM() throws InterruptedException {
+        driver = new ChromeDriver();
         driver.get("https://books-pwakit.appspot.com/");
 
-        // 1️⃣ book-app shadow root
-        WebElement bookApp = driver.findElement(By.cssSelector("book-app"));
-        SearchContext shadow1 = bookApp.getShadowRoot();
-
-        // 2️⃣ app-toolbar (normal element inside shadow1)
-        WebElement toolbar =
-                shadow1.findElement(By.cssSelector("app-toolbar.toolbar-bottom"));
-
-        // 3️⃣ book-input-decorator (normal child of toolbar)
-        WebElement decorator =
-                toolbar.findElement(By.cssSelector("book-input-decorator"));
-
-        // 4️⃣ decorator shadow root
-        SearchContext shadow2 = decorator.getShadowRoot();
-
-        // 5️⃣ input field
-        WebElement input =
-                shadow2.findElement(By.cssSelector("input"));
-
-        input.sendKeys("Selenium");
+        JavascriptExecutor js = (JavascriptExecutor)driver;
+        String script = "return document.querySelector('book-app').shadowRoot.querySelector('input')";
+        WebElement input = (WebElement) js.executeScript(script);
+        input.sendKeys("Harry potter");
         input.sendKeys(Keys.ENTER);
+        Thread.sleep(10000);
 
-        System.out.println("Search Successful");
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(40));
 
-        driver.quit();
+        WebElement result = (WebElement) js.executeScript("return document.querySelector('book-app')" +".shadowRoot.querySelector('book-explore')"+
+
+                ".shadowRoot.querySelector('book-item');");
+        Assert.assertTrue(result.getText().contains("Harry Potter"));
+
     }
+
 }
